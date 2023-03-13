@@ -1,4 +1,6 @@
 package lt.jolanta.BTNproject.pom.utils;
 
-public class TestListener {
+import org.testng.ITestNGListener;
+
+public class TestListener implements ITestNGListener {
 }
