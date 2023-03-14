@@ -12,6 +12,12 @@ public class NamesSearchTest extends BaseTest {
     @Override
     public void setup(){NamesSearchPage.open();}
 
+    @Test
+    public void testFormRefineList(){
+
+
+    }
+
 
 
 }

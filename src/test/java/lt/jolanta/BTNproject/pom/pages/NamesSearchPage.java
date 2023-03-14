@@ -6,3 +6,4 @@ public class NamesSearchPage {
         Common.openUrl("https://www.behindthename.com/names/search");
     }
 }
+
