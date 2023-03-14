@@ -3,7 +3,7 @@ package lt.jolanta.BTNproject.pom.pages;
 import org.openqa.selenium.By;
 
 public class Locator {
-    public static By Elements = By.xpath("//button[@id='main_search_button']");
+   // public static By Elements = By.xpath("//button[@id='main_search_button']");
 
     public class HomepageTest {
         public static By inputUserMessage = By.xpath("//input[@id='main_search']");
