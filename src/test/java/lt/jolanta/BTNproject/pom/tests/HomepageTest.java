@@ -26,8 +26,9 @@ public class HomepageTest extends BaseTest {
 
         Assert.assertEquals(actualResult, expectedResult);
     }
+
     @Test
-    public void testToolsMenu_RandomRenamer(){
+    public void testToolsMenu_RandomRenamer() {
 
         HomepagePage.selectToolsBtn();
         HomepagePage.clickRandomRenamerBtn();
@@ -35,13 +36,6 @@ public class HomepageTest extends BaseTest {
         HomepagePage.readRandomName();
 
         Assert.assertNotNull(HomepagePage.readRandomName());
-
-
-
-
-
-
-
 
 
     }
