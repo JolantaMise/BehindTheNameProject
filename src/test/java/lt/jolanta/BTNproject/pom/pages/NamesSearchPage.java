@@ -22,6 +22,18 @@ public class NamesSearchPage {
     public static String readBtnGenderValueText() {
         return Common.getElementText(Locator.NamesSearchTest.btnInputValueGender2);
     }
+
+    public static void findElementGenderValueOptions() {
+        Common.clickElement(Locator.NamesSearchTest.btnGenderValue);
+    }
+
+    public static void clickAllElements() {
+        Common.clickElement(Locator.NamesSearchTest.btnGenderValue);
+    }
+
+    public static void clickBtnPlusMinus() {
+        Common.clickElement(Locator.NamesSearchTest.btnPlusMinus);
+    }
 }
 
 

@@ -1,10 +1,14 @@
 package lt.jolanta.BTNproject.pom.tests;
 
 import lt.jolanta.BTNproject.pom.tests.Common.BaseTest;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import lt.jolanta.BTNproject.pom.pages.NamesSearchPage;
+
+import javax.naming.Name;
+import java.util.List;
 
 public class NamesSearchTest extends BaseTest {
 
@@ -24,6 +28,11 @@ public class NamesSearchTest extends BaseTest {
         System.out.println("atspausdinta ka nuskaite: " + actualResult);
 
         Assert.assertEquals(actualResult, expectedResult);
+    }
+
+    @Test
+    public void testMeaningAndKeywordsBtns() {
 
     }
 }
+
