@@ -29,8 +29,6 @@ public class Driver {
     }
 
     public static void closeDriver() {
-        driverThread.get().quit();
-        driverThread.remove();
-
-    }
+      driverThread.get().quit();
+       driverThread.remove();}
 }
