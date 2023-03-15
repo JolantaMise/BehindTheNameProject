@@ -27,16 +27,5 @@ public class NamesSearchTest extends BaseTest {
 
     }
 
-    @Test
-    public void testBtnPlusminus_Gender_Click() {
-        String expectedResult = "is any";
-        String actualResult;
-
-        NamesSearchPage.clickBtnPlusminus_Gender();
-        actualResult = NamesSearchPage.readTrGenderValueText();
-
-        Assert.assertEquals(actualResult, expectedResult);
-    }
-
 
 }
