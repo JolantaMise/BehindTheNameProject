@@ -21,11 +21,9 @@ public class NamesSearchTest extends BaseTest {
         NamesSearchPage.clickBtnPlusminus_Gender();
         NamesSearchPage.clickBtnInputValueGenderMasculine();
         actualResult = NamesSearchPage.readBtnGenderValueText();
+        System.out.println("atspausdinta ka nuskaite: " + actualResult);
 
         Assert.assertEquals(actualResult, expectedResult);
 
-
     }
-
-
 }
