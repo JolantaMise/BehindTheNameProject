@@ -22,8 +22,7 @@ public class Common {
     }
 
     public static void closeDriver() {
-        Driver.closeDriver();
-    }
+    Driver.closeDriver();}
 
     public static void sendKeysToElement(By locator, String text) {
         getElement(locator).sendKeys(text);
