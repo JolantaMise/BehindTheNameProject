@@ -37,4 +37,8 @@ public class HomepagePage {
     public static String readRandomName() {
         return Common.getElementText(Locator.HomepageTest.randomName);
     }
+
+    public static void clickMainSearchSettings() {
+        Common.clickElement(Locator.HomepageTest.mainSearchSettingsBtn);
+    }
 }

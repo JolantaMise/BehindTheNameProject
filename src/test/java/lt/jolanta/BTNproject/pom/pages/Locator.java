@@ -3,7 +3,13 @@ package lt.jolanta.BTNproject.pom.pages;
 import org.openqa.selenium.By;
 
 public class Locator {
-   // public static By Elements = By.xpath("//button[@id='main_search_button']");
+
+    public static class NamesSearchTest{
+        public static By btnPlusminus_Gender = By.xpath("//span[@id='nb-plusminus-gender']");
+        public static By trGenderValue = By.xpath("//tr[@id='nb-row-value-gender']");
+        public static By btnInputValueGender2 = By.xpath("//label[@for='nb-input2-value-gender']");
+        public static By selectOptionGenderMasculine = By.xpath("//*[@id=nb-input-value-gender]/option[2]");
+    }
 
     public class HomepageTest {
         public static By inputUserMessage = By.xpath("//input[@id='main_search']");
@@ -14,5 +20,6 @@ public class Locator {
         public static By randomRenamerBtn = By.xpath("(//a)[15]");
         public static By largeBtn1 = By.xpath("(//input[@class='largebutton'])[1]") ;
         public static By randomName = By.xpath("//div[@class='random-results']");
+        public static By mainSearchSettingsBtn = By.xpath("//button[@id='main_search_settings']");
     }
 }

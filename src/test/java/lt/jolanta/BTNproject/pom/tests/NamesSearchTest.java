@@ -10,14 +10,33 @@ public class NamesSearchTest extends BaseTest {
 
     @BeforeMethod
     @Override
-    public void setup(){NamesSearchPage.open();}
+    public void setup() {
+        NamesSearchPage.open();
+    }
 
     @Test
-    public void testFormRefineList(){
+    public void testBtn_GenderValue_input() {
+        String expectedResult = "masculine";
+        String actualResult;
+        NamesSearchPage.clickBtnPlusminus_Gender();
+        NamesSearchPage.clickBtnInputValueGenderMasculine();
+        actualResult = NamesSearchPage.readBtnGenderValueText();
+
+        Assert.assertEquals(actualResult, expectedResult);
 
 
     }
 
+    @Test
+    public void testBtnPlusminus_Gender_Click() {
+        String expectedResult = "is any";
+        String actualResult;
+
+        NamesSearchPage.clickBtnPlusminus_Gender();
+        actualResult = NamesSearchPage.readTrGenderValueText();
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
 
 
 }
