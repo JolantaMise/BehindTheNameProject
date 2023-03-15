@@ -36,7 +36,6 @@ public class Common {
         return getElement(locator).getText();
     }
 
-    public static void clickElement(By locator) {
-        getElement(locator).click();
+    public static void clickElement(By locator) { getElement(locator).click();
     }
 }

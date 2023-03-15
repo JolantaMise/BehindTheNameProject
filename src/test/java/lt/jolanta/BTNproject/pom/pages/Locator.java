@@ -11,6 +11,7 @@ public class Locator {
         public static By selectOptionGenderMasculine = By.xpath("//*[@id=nb-input-value-gender]/option[2]");
         public static By btnGenderValue = By.xpath("//input[@name='value_gender']");
         public static By btnPlusMinus = By.xpath("//span[@class='nb-plusminus']");
+        public static By linkWebElement = By.linkText("a");
     }
 
     public class HomepageTest {

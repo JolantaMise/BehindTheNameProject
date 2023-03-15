@@ -31,8 +31,8 @@ public class NamesSearchTest extends BaseTest {
     }
 
     @Test
-    public void testMeaningAndKeywordsBtns() {
-
+    public void testLinkCount(){
     }
+
 }
 

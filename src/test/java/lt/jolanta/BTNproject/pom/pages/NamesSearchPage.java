@@ -1,5 +1,10 @@
 package lt.jolanta.BTNproject.pom.pages;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
+
 public class NamesSearchPage {
 
     public static void open() {
@@ -33,6 +38,10 @@ public class NamesSearchPage {
 
     public static void clickBtnPlusMinus() {
         Common.clickElement(Locator.NamesSearchTest.btnPlusMinus);
+    }
+
+    public static void findLinks() {
+        Common.findWebElement(Locator.NamesSearchTest.linkWebElement);
     }
 }
 
