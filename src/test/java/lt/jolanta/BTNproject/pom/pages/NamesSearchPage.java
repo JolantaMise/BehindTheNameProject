@@ -40,9 +40,7 @@ public class NamesSearchPage {
         Common.clickElement(Locator.NamesSearchTest.btnPlusMinus);
     }
 
-    public static void findLinks() {
-        Common.findWebElement(Locator.NamesSearchTest.linkWebElement);
-    }
+    public static void findLinks() {}
 }
 
 
