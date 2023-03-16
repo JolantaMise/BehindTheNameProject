@@ -18,10 +18,6 @@ public class HomepagePage {
         Common.clickElement(Locator.HomepageTest.mainSearchElement);
     }
 
-    public static void inputUserMessage(String message) {
-        Common.sendKeysToElement(Locator.HomepageTest.autocompleteInput, message);
-    }
-
     public static void selectToolsBtn() {
         Common.clickElement(Locator.HomepageTest.toolsBtn);
     }
