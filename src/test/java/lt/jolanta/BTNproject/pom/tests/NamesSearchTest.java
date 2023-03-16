@@ -1,7 +1,6 @@
 package lt.jolanta.BTNproject.pom.tests;
 
 import lt.jolanta.BTNproject.pom.tests.Common.BaseTest;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
