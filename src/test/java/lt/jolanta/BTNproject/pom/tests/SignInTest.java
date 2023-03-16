@@ -23,8 +23,8 @@ public class SignInTest extends BaseTest{
         SignInPage.enterPassword(password);
         SignInPage.clickSignInBtn();
         actualResult = SignInPage.readUserName();
-        System.out.println("Nuskaitytas tekstas: " + expectedResult);
 
+        System.out.println("Nuskaitytas tekstas: " + expectedResult);
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -39,6 +39,7 @@ public class SignInTest extends BaseTest{
         SignInPage.enterPassword(password);
         SignInPage.clickSignInBtn();
         actualResult = SignInPage.readFieldErorMessage();
+
         System.out.println("Nuskaitytas tekstas: " + expectedResult);
         Assert.assertEquals(actualResult, expectedResult);
 
