@@ -7,7 +7,6 @@ import org.testng.annotations.Test;
 import lt.jolanta.BTNproject.pom.pages.HomepagePage;
 
 public class HomepageTest extends BaseTest {
-
     @BeforeMethod
     @Override
     public void setup() {

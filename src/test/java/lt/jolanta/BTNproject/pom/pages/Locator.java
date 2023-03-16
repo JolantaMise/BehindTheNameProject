@@ -12,6 +12,7 @@ public class Locator {
         public static By btnGenderValue = By.xpath("//input[@name='value_gender']");
         public static By btnPlusMinus = By.xpath("//span[@class='nb-plusminus']");
         public static By linkWebElement = By.linkText("a");
+        public static By btnPlusMinus_Meaning = By.xpath("//span[@id='nb-plusminus-keywords_etc']");
     }
 
     public class HomepageTest {
