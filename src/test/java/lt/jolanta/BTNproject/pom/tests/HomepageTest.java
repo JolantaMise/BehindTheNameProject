@@ -35,8 +35,6 @@ public class HomepageTest extends BaseTest {
         HomepagePage.readRandomName();
 
         Assert.assertNotNull(HomepagePage.readRandomName());
-
-
     }
 
 }
