@@ -1,5 +1,8 @@
 package lt.jolanta.BTNproject.pom.pages;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
 public class HomepagePage {
 
     public static void open() {
@@ -35,6 +38,7 @@ public class HomepagePage {
     }
 
     public static void clickMainSearchSettings() {
+
         Common.clickElement(Locator.HomepageTest.mainSearchSettingsBtn);
     }
 }

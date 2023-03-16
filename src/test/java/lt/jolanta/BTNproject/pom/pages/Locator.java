@@ -33,5 +33,6 @@ public class Locator {
         public static By largeBtn1 = By.xpath("(//input[@class='largebutton'])[1]");
         public static By randomName = By.xpath("//div[@class='random-results']");
         public static By mainSearchSettingsBtn = By.xpath("//button[@id='main_search_settings']");
+        public static By letterLinks = By.xpath("//div[@class=letterlinks main-linkblock]");
     }
 }
