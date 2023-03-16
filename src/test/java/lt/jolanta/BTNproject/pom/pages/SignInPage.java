@@ -19,6 +19,10 @@ public class SignInPage {
     }
 
     public static String readUserName() {
-        return Common.getElementText(Locator.HomepageTest.readUserName);
+        return Common.getElementText(Locator.SignInTest.readUserName);
+    }
+
+    public static String readFieldErorMessage() {
+        return Common.getElementText(Locator.SignInTest.fieldErorMessage);
     }
 }

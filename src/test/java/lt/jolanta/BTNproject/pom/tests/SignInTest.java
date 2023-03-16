@@ -16,7 +16,7 @@ public class SignInTest extends BaseTest{
 
         String emailAdress = "liepavasara336@gmail.com";
         String password = "NetikrasSlaptazodis336";
-        String expectedResult ="▾";
+        String expectedResult ="Vasara  ▾";
         String actualResult;
 
         SignInPage.enterText(emailAdress);
@@ -25,8 +25,24 @@ public class SignInTest extends BaseTest{
         actualResult = SignInPage.readUserName();
         System.out.println("Nuskaitytas tekstas: " + expectedResult);
 
-
         Assert.assertEquals(actualResult, expectedResult);
     }
 
+    @Test
+    public void testNegativeUserSignIn_IncorrectPassword(){
+        String emailAdress = "liepavasara336@gmail.com";
+        String password = "Netikrasslaptazodis336";
+        String expectedResult ="Password is not valid for this username.";
+        String actualResult;
+
+        SignInPage.enterText(emailAdress);
+        SignInPage.enterPassword(password);
+        SignInPage.clickSignInBtn();
+        actualResult = SignInPage.readFieldErorMessage();
+        System.out.println("Nuskaitytas tekstas: " + expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
+
+    }
+
 }
+
