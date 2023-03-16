@@ -26,11 +26,5 @@ public class NamesSearchTest extends BaseTest {
 
         Assert.assertEquals(actualResult, expectedResult);
     }
-
-    @Test
-    public void testMultipleCheckMeaningBtns(){
-
-    }
-
 }
 

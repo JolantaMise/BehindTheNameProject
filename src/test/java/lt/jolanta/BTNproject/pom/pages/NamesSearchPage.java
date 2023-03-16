@@ -9,12 +9,12 @@ public class NamesSearchPage {
 
     public static void open() {
         Common.openUrl("https://www.behindthename.com/names/search");
-    }
 
+    }
     public static void clickBtnPlusminus_Gender() {
+
         Common.clickElement(Locator.NamesSearchTest.btnPlusminus_Gender);
     }
-
 
     public static String readTrGenderValueText() {
         return Common.getElementText(Locator.NamesSearchTest.trGenderValue);
@@ -29,20 +29,18 @@ public class NamesSearchPage {
     }
 
     public static void findElementGenderValueOptions() {
-        Common.clickElement(Locator.NamesSearchTest.btnGenderValue);
-    }
 
-    public static void clickAllElements() {
         Common.clickElement(Locator.NamesSearchTest.btnGenderValue);
-    }
-
-    public static void clickBtnPlusMinus() {
-        Common.clickElement(Locator.NamesSearchTest.btnPlusMinus);
     }
 
     public static void clickBtnPlusMinus_Meaning() {
         Common.clickElement(Locator.NamesSearchTest.btnPlusMinus_Meaning);
+
+
+
     }
 }
+
+
 
 
