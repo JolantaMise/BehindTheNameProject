@@ -35,9 +35,6 @@ public class NamesSearchPage {
 
     public static void clickBtnPlusMinus_Meaning() {
         Common.clickElement(Locator.NamesSearchTest.btnPlusMinus_Meaning);
-
-
-
     }
 }
 
