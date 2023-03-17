@@ -1,10 +1,12 @@
-# BehindTheNameProject
+# Behind the Name Project
 
 Automation testing project @ [Behind the Name website](https://www.behindthename.com/).
 
 Test login email: liepavasara336@gmail.com
 
-Test login password: NetikrasSlaptazodis336 Test User name: Vasara
+Test login password: NetikrasSlaptazodis336
+
+Test User name: Vasara
     
     
     
