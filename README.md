@@ -51,5 +51,18 @@ Test User name: Vasara
     5. Read name text
     Expected result: random name appears, get random name text.
     
+   __3. Name Search test__
+   
+   *3.1 Test gender value Masculine button*
+   
+    1. Open Names search page (https://www.behindthename.com/names/search);
+    2. Click option Gender button "+" ;
+    3. Click button gender value "Masculine";
+    4. Read button text;
+    Expected result: the right button was clicked, button text "masculine".
+    
+   
+    
+    
   
   
