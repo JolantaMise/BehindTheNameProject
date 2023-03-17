@@ -19,7 +19,7 @@ Test User name: Vasara
       1. Go to the main page;
       2. Click on Sign In
       3. Enter Sign In user details: test email address:liepavasara336@gmail.com; test password: NetikrasSlaptazodis336;
-      4.  Click button "Sign In";
+      4. Click button "Sign In";
       Expected Result: In the Main page table data cell the usser name Vasara will appear.
 
 *1.2 Sign in using incorrect email adress*
@@ -41,5 +41,15 @@ Test User name: Vasara
     3. Click main search element;
     4. Read name banner text;
     Expected result: web page with information about name Adomas will be opened.
+    
+   *2.2 Test Tools menu option Random renamer*
+    
+    1. Open Home page;
+    2. Select Tools button;
+    3. Select Random renamer option;
+    4. Click upper button "Generate a Name!"
+    5. Read name text
+    Expected result: random name appears, get random name text.
+    
   
   
