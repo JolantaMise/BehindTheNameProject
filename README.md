@@ -11,9 +11,10 @@ Test User name: Vasara
     
     
  
+ 
  __1. Sign in Test__
 
-*Sign in using existing account details*
+*1.1 Sign in using existing account details*
 
       1. Go to the main page;
       2. Click on Sign In
@@ -21,11 +22,24 @@ Test User name: Vasara
       4.  Click button "Sign In";
       Expected Result: In the Main page table data cell the usser name Vasara will appear.
 
-*Sign in using incorrect email adress*
+*1.2 Sign in using incorrect email adress*
 
      1. Go to the main page;
-     2. Click on Sign In
+     2. Click on Sign In;
      3. Enter Sign In user details: test email address:liepavasara336@gmail.com; test password: NetikrasSlaptazodis336
      4. Click button "Sign In";
      Expected result: The same page will remain, but below the login fields the red 
      text "Password is not valid for this username." will appear.
+     
+ 
+ __2. Home page Test__
+  
+  *2.1 Test main search field with entering name "Adomas" text*
+  
+    1. Open Home page;
+    2. Enter name Adomas in the main search field;
+    3. Click main search element;
+    4. Read name banner text;
+    Expected result: web page with information about name Adomas will be opened.
+  
+  
