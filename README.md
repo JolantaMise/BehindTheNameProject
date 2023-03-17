@@ -22,7 +22,7 @@ Test User name: Vasara
       4. Click button "Sign In";
       Expected Result: In the Main page table data cell the usser name Vasara will appear.
 
-*1.2 Sign in using incorrect email adress*
+*1.2 Sign in using incorrect password*
 
      1. Go to the main page;
      2. Click on Sign In;
