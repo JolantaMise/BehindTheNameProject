@@ -17,7 +17,7 @@ Test User name: Vasara
 *1.1 Sign in using existing account details*
 
       1. Go to the main page;
-      2. Click on Sign In
+      2. Click on Sign In;
       3. Enter Sign In user details: test email address:liepavasara336@gmail.com; test password: NetikrasSlaptazodis336;
       4. Click button "Sign In";
       Expected Result: In the Main page table data cell the usser name Vasara will appear.
@@ -60,6 +60,12 @@ Test User name: Vasara
     3. Click button gender value "Masculine";
     4. Read button text;
     Expected result: the right button was clicked, button text "masculine".
+      
+  __4. LanguageSearchTest__
+    
+   *4.1 Test web page links/broken links*
+   
+    1. 
     
    
     
