@@ -17,7 +17,7 @@ public class Driver {
         chromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
         chromeOptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
         chromeOptions.addArguments("--start-maximized ");
-        //chromeOptions.addArguments("--force-device-scale-factor=0.75");
+        chromeOptions.addArguments("--force-device-scale-factor=0.75");
         driverThread.set(new ChromeDriver(chromeOptions));
         driverThread.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
