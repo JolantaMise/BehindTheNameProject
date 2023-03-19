@@ -25,5 +25,6 @@ public class NamesSearchTest extends BaseTest {
         System.out.println("atspausdinta ką nuskaitė: " + actualResult);
         Assert.assertEquals(actualResult, expectedResult);
     }
+
 }
 

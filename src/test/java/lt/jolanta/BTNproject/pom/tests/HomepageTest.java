@@ -29,15 +29,17 @@ public class HomepageTest extends BaseTest {
     @Test
     public void testToolsMenu_RandomRenamer() {
 
+
         HomepagePage.selectToolsBtn();
         HomepagePage.clickRandomRenamerBtn();
         HomepagePage.clickLargeBtn1();
         HomepagePage.readRandomName();
+        System.out.println("Random name = " + HomepagePage.readRandomName());
 
         Assert.assertNotNull(HomepagePage.readRandomName());
     }
-}
 
+}
 
 
 
