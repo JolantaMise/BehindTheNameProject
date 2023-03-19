@@ -15,7 +15,7 @@ public abstract class BaseTest {
 
    @AfterMethod
    public void teardown(){
-        Common.closeDriver();
+       Common.closeDriver();
    }
 }
 
