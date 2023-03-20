@@ -32,6 +32,7 @@ TestListener implements ITestListener {
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy_MM_dd_HH_mm_SSS");
 
             File screenshotFinalFile = new File(String.format(directory + dateTime.format(formatter) + "screenshot_" + UUID.randomUUID() + ".jpg"));
+
             FileUtils.copyFile(screenshotFile, screenshotFinalFile);
         } catch (IOException e) {
             throw new RuntimeException(e);
